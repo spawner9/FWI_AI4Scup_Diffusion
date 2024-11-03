@@ -48,9 +48,7 @@ logger.setLevel('INFO')
 
 # Create directories for experimental logs
 sample_dir = os.path.join(workdir, "samples")
-tb_dir = os.path.join(workdir, "tensorboard")
 os.makedirs(sample_dir, exist_ok=True)
-os.makedirs(tb_dir, exist_ok=True)
 
 # Create checkpoints director;
 # Checkpoints folder 是在训练过程中的参数存储，Checkpoints_meta folder 是加载训练时去检测有没有保存的模型可以继续训练, 不然就重新开始; 

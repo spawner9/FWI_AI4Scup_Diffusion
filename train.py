@@ -22,7 +22,7 @@ from configs.vp import AI4Scup2_ddpm_continuous_full as configs
 # Set Config
 config = configs.get_config()
 base_resolution = config.data.image_size
-resolution = 64
+resolution = 256
 
 times = int(np.log2(base_resolution/resolution))
 workdir = "workdir/AI4Scup2_cropped_downsampled_full/" + str(resolution)

@@ -1,0 +1,14 @@
+ml-collections==0.1.0
+tensorflow-gan==2.0.0
+tensorflow_io
+tensorflow_datasets==3.1.0
+tensorflow==2.12.0
+tensorflow-addons==0.20.0
+tensorboard==2.12.0
+absl-py==1.4.0
+#torch==1.11.0
+#torchvision==0.12.0
+ninja
+
+#A100-SXM4-80G 不兼容的主要问题不是仅仅在于pytorch的版本，实际上也和pytorch 也有不同 cuda版本之分！ 比如torch=1.10.0+cu113！
+#不一定要很高的pytorch版本！
